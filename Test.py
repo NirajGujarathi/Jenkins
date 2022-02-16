@@ -6,7 +6,7 @@ class TestSum(unittest.TestCase):
     def test_list_init(self):
         data = [2,3]
         result = summation(data)
-        self.assertEqual(result,5)
+        self.assertEqual(result,505)
 
 if __name__ == '__main__':
     unittest.main()
